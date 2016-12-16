@@ -1,0 +1,7 @@
+---
+- name: Install bspwm packages
+  xbps:
+    pkg:
+      - bspwm
+      - sxhkd
+    state: present
